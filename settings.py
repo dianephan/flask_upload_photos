@@ -1,6 +1,6 @@
 # this is the hardcoded database of people 
 KNOWN_PARTICIPANTS = {
-  'herooftime@hyrule.com': "<YOUR_PHONE_NUMBER>",
-  'zelda@hyrule.com': '+15551234567',
-  'tetra@hyrule.com': '+15557654321'
+  'twilioisthebest@twilio.com': "<YOUR_PHONE_NUMBER>",
+  'cedric@twilioquestgame.com': '+15552211986',
+  'twilioquestthebest@twilio.com': '+15553242003'
 }

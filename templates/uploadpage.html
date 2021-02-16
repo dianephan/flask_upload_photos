@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Verify your account</title>
+    <title>Upload an image</title>
   </head>
   <body>
     <h1 class="title">
@@ -12,13 +12,12 @@
     {% if error %}
       <p class=error><strong>Error:</strong> {{ error }}
     {% endif %}
-
-      <form action = "http://localhost:5000/uploader" method = "POST" 
+    <form action = "http://localhost:5000/uploader" method = "POST" 
       enctype = "multipart/form-data">
       <input type = "file" name = "file" />
       <br>
       <br>
       <input type = "submit"/>
-      </form>   
+    </form>   
   </body>
 </html>
