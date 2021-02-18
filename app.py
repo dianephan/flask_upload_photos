@@ -55,7 +55,8 @@ def generate_verification_code():
    if request.method == 'POST':
       verification_code = request.form['verificationcode']
       if check_verification_token(phone, verification_code):
-         return render_template('uploadpage.html', username = username)
+         # return render_template('uploadpage.html', username = username)
+         return redirect(url_for('upload_file'))
       else:
          error = "Invalid verification code. Please try again."
          return render_template('verifypage.html', error = error)
